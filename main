@@ -6,7 +6,8 @@ public class MonteCarloPiDemo {
 		for (int i = 1;i<=N;i++){
 			double x = Math.random();
 			double y = Math.random();
-			if(x*x+y*y<1){ //(x,y)落在圓內 ;if 圓上：x＾2+y^2 = 1^2
+			if(x*x+y*y<1){ 
+			//(x,y)落在圓內 ;if 圓上：x＾2+y^2 = 1^2
 				m++;
 			}
 		}
